@@ -266,6 +266,11 @@ main {
     gap: 34px;
 }
 
+.win2 .top .time .time-card h1{
+    margin: auto;
+    margin-right: 300px;
+}
+
 .win2 .top .time .time-card {
     display: flex;
     align-items: flex-start;
@@ -273,12 +278,8 @@ main {
     gap: 12px;
 }
 
-.win2 .top .time .time-card p {
-    font-size: 12px;
-}
-
 .win2 .top .time .time-card h1 {
-    font-size: 32px;
+    font-size: 44px;
     font-weight: 700;
 }
 
@@ -515,8 +516,12 @@ main {
     flex-direction: column;
     gap: 3px;
     border-radius: 50%;
-    background-color: white;
-    color: black;
+    color: white;
+}
+
+.win3 .text .time .time-card h1{
+    font-size: 44px;
+    color: white;
 }
 
 .win3 .text .time .time-card p {

@@ -1,3 +1,61 @@
+const hello = document.querySelector(".hello")
+setInterval(() => {
+    let date = new Date();
+    let days = date.getDay();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+
+    if (hours > 12) {
+        hours -= 12;
+    }
+
+    if (hours < 10) {
+        hours = "0" + hours;
+    }
+
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+    }
+
+    if (seconds < 10) {
+        seconds = "0" + seconds;
+    }
+
+    hello.textContent = "0" + days + ":" + hours + ":" + minutes + ":" + seconds;
+    hello.style.fontSize = "50px";
+    hello.style.fontweight = "bold"
+}, 1000);
+
+const hellooo = document.querySelector(".hellooo")
+setInterval(() => {
+    let date = new Date();
+    let days = date.getDay();
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+
+    if (hours > 12) {
+        hours -= 12;
+    }
+
+    if (hours < 10) {
+        hours = "0" + hours;
+    }
+
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+    }
+
+    if (seconds < 10) {
+        seconds = "0" + seconds;
+    }
+
+    hellooo.textContent = "0" + days + ":" + hours + ":" + minutes + ":" + seconds;
+    hellooo.style.fontSize = "50px";
+    hellooo.style.fontweight = "bold"
+}, 1000);
+
 let swiper = new Swiper(".product", {
     slidesPerView: 4,
     navigation: {
@@ -24,30 +82,6 @@ let swiper3 = new Swiper(".cards-container", {
         prevEl: ".orqa2",
     },
 });
-
-function updateTime() {
-    const now = new Date();
-
-    const months = ["Yanvar", "Fevral", "Mart", "Aprel", "May", "Iyun", "Iyul", "Avgust", "Sentabr", "Oktabr", "Noyabr", "Dekabr"];
-
-    const dayNumber = now.getDate();
-    const monthName = months[now.getMonth()];
-    const year = now.getFullYear();
-
-    const hours = String(now.getHours()).padStart(2, "0");
-    const minutes = String(now.getMinutes()).padStart(2, "0");
-    const seconds = String(now.getSeconds()).padStart(2, "0");
-
-    document.getElementById("day").innerText = dayNumber;
-    document.getElementById("hour").innerText = hours;
-    document.getElementById("minute").innerText = minutes;
-    document.getElementById("second").innerText = seconds;
-}
-
-
-
-setInterval(updateTime, 1000);
-updateTime();
 
 function heart() {
     let el = document.getElementById("heart");
