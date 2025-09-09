@@ -5,6 +5,21 @@
     font-family: sans-serif;
 }
 
+.left .qiziiiil,
+.lefttt .qiziiiil {
+    border-left: 20px solid rgba(219, 68, 68, 1);
+    width: 150px;
+    height: 40px;
+    color: rgba(219, 68, 68, 1);
+    background-color: none;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -266,9 +281,8 @@ main {
     gap: 34px;
 }
 
-.win2 .top .time .time-card h1{
+.win2 .top .time .time-card h1 {
     margin: auto;
-    margin-right: 300px;
 }
 
 .win2 .top .time .time-card {
@@ -416,7 +430,7 @@ main {
     width: 107px;
 }
 
-.win2 .products .swiper-slide .text {
+.win2 .text {
     text-align: start;
     padding-top: 10px;
     display: flex;
@@ -424,8 +438,34 @@ main {
     gap: 8px;
 }
 
-.win2 .products .swiper-slide .text p {
+.win2 .text p {
     color: rgba(219, 68, 68, 1);
+}
+
+.win2 .text p span {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.win2 .products .swiper-slide .text>span>span,
+.text p .spp {
+    color: gray;
+}
+
+button,
+.bttn {
+    width: 235px;
+    height: 56px;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 40px auto;
+}
+
+.bttn {
+    margin-left: 510px;
 }
 
 .win2 .categories {
@@ -481,8 +521,6 @@ main {
     background-color: rgba(0, 0, 0, 1);
     padding-left: 60px;
     display: flex;
-    padding-top: 60px;
-    padding-bottom: 60px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -519,7 +557,7 @@ main {
     color: white;
 }
 
-.win3 .text .time .time-card h1{
+.win3 .text .time .time-card h1 {
     font-size: 44px;
     color: white;
 }
@@ -558,7 +596,7 @@ main {
 .win3>img {
     width: 600px;
     height: auto;
-    box-shadow: (0 0 20px 20px white);
+    filter: drop-shadow(0 0 20px 20px white);
     transform: rotateY(180deg);
     margin: 0;
     margin-left: 50%;
@@ -780,6 +818,10 @@ main {
     margin-top: 60px;
 }
 
+.win5 .top {
+    padding: 20px 0;
+}
+
 .win5 .bottom {
     width: 100%;
     display: flex;
@@ -921,19 +963,22 @@ main {
     font-size: 26px;
 }
 
-.win6>a {
+body >a {
     text-decoration: none;
     align-items: center;
     justify-content: center;
     display: flex;
     width: 46px;
     height: 46px;
-    position: absolute;
-    color: black;
-    background-color: rgba(245, 245, 245, 1);
+    position: fixed;
+    z-index: 222222;
+    color: white;
+    background-color: black;
     font-size: 22px;
     border-radius: 50%;
-    right: 12%;
+    right: 3%;
+    border: 1px solid white;
+    top: 600px;
 }
 
 /*?  -------- Footer --------  */
