@@ -1,0 +1,753 @@
+/*? ================== screen and max-width: 1280px ================== */
+
+@media screen and (max-width: 1280px) {
+
+    .win4 .top,
+    .win4 .first-card-container {
+        max-width: 94%;
+    }
+
+    .win3 {
+        max-width: 94%;
+        display: none;
+    }
+
+    .cards-container {
+        max-width: 94%;
+    }
+
+    .win6 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    footer .center {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 30px 40px;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .win6 {
+        margin-top: 410px;
+    }
+}
+
+/*? ================== 1290px ================== */
+
+@media (min-width: 992px) and (max-width: 1290px) {
+    header .nav2 .container {
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 5%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .win1 {
+        width: 100%;
+        padding: 20px 60px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .win1 .image {
+        width: 60.1%;
+    }
+
+    .win2 {
+        width: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .win2 .products .swiper-wrapper,
+    .win2 .categories .swiper-wrapper {
+        flex-wrap: wrap;
+        gap: 34px;
+        align-items: center;
+        display: flex;
+    }
+
+    .win3 {
+        max-width: 96%;
+    }
+
+    .win3>img {
+        margin-left: 35%;
+    }
+
+    .win4 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .top {
+        padding: 0 40px;
+    }
+
+    .win4 .cards-container {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .cards-container .first-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 40px;
+        padding: 30px 40px;
+    }
+
+    .win5 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win5 .bottom {
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+}
+
+/*? ================== 992px ================== */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    header .nav2 .container {
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 5%;
+        display: flex;
+        gap: 18px 120px;
+    }
+
+    .win1 {
+        padding: 20px 60px;
+        width: 100%;
+        border-right: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .win1 ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .win1 ul li {
+        width: auto;
+        flex: 1 1 auto;
+        justify-content: flex-start;
+    }
+
+    .win1 .image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .win2 {
+        width: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .win2 .products .swiper-wrapper,
+    .win2 .categories .swiper-wrapper {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .win3 {
+        max-width: 96%;
+    }
+
+    .win3>img {
+        margin-left: 25%;
+    }
+
+    .win4 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .top {
+        padding: 0 40px;
+    }
+
+    .win4 .cards-container {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .cards-container .first-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 40px;
+        padding: 30px 40px;
+    }
+
+    .win5 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win5 .bottom {
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .win6 {
+        margin-bottom: 300px;
+    }
+}
+
+/*? ================== 916px ================== */
+
+
+/*? ================== 768px ================== */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    header .nav1 {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 20px 0;
+        gap: 16px;
+    }
+
+    header .nav2 .container {
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 5%;
+        display: flex;
+        gap: 18px 120px;
+    }
+
+    .win1 {
+        padding: 20px 60px;
+        width: 100%;
+        border-right: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .win1 ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .win1 ul li {
+        width: auto;
+        flex: 1 1 auto;
+        justify-content: flex-start;
+    }
+
+    .win1 .image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .win2 {
+        width: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .win2 .top {
+        gap: 25px 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .win2 .products .swiper-wrapper,
+    .win2 .categories .swiper-wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    .win3 {
+        max-width: 96%;
+    }
+
+    .win3>img {
+        margin-left: 15%;
+    }
+
+    .win4 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .top {
+        padding: 0 40px;
+    }
+
+    .win4 .cards-container {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .cards-container .first-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 40px;
+        padding: 30px 40px;
+    }
+
+    .win5 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win5 .bottom {
+        max-width: 550px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .win5 .bottom div:nth-child(1),
+    .win5 .bottom div:nth-child(2) {
+        max-width: 550px;
+    }
+
+    .win5 .bottom .right .bottom2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .win6 {
+        margin-bottom: 500px;
+    }
+}
+
+/*? ================== 576px ================== */
+
+@media (min-width: 430px) and (max-width: 576px) {
+    header .nav1 {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        padding: 20px 30px;
+        gap: 16px;
+    }
+
+    header .nav2 .container {
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 5%;
+        display: flex;
+        gap: 18px 120px;
+    }
+
+    .win1 {
+        padding: 20px 60px;
+        width: 100%;
+        border-right: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .win1 ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .win1 ul li {
+        width: auto;
+        flex: 1 1 auto;
+        justify-content: flex-start;
+    }
+
+    .win1 .image {
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 12px;
+    }
+
+    .win1 .image .img {
+        right: 10px;
+        left: 10px;
+    }
+
+    .win2 {
+        width: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .win2 .top {
+        gap: 25px 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .win2 .products .swiper-wrapper,
+    .win2 .categories .swiper-wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    .win3 {
+        max-width: 96%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .win3 .text {
+        left: 5%;
+        width: 360px;
+    }
+
+    .win3>img {
+        width: 400px;
+        margin-left: 12%;
+    }
+
+    .win4 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .top {
+        padding: 0 40px;
+    }
+
+    .win4 .cards-container {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .cards-container .first-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 40px;
+        padding: 30px 40px;
+    }
+
+    .win5 {
+        max-width: 400px;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win5 .bottom {
+        max-width: 410px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .win5 .bottom .left img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .win5 .bottom div:nth-child(1),
+    .win5 .bottom div:nth-child(2) {
+        max-width: 410px;
+    }
+
+    .win5 .bottom .right .bottom2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .win6 {
+        margin-bottom: 570px;
+    }
+}
+
+/*? ================== 430px ================== */
+
+@media (min-width: 375px) and (max-width: 430px) {
+    header .nav1 {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        padding: 20px;
+        gap: 16px;
+    }
+
+    header .nav2 .container {
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 5%;
+        display: flex;
+        gap: 18px 120px;
+    }
+
+    .win1 {
+        padding: 20px 60px;
+        width: 100%;
+        border-right: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .win1 ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .win1 ul li {
+        width: auto;
+        flex: 1 1 auto;
+        justify-content: flex-start;
+    }
+
+    .win1 .image {
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 12px;
+    }
+
+    .win1 .image .img {
+        right: 10px;
+        left: 10px;
+    }
+
+    .win2 {
+        width: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .win2 .top {
+        gap: 25px 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .win2 .products .swiper-wrapper,
+    .win2 .categories .swiper-wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    .win3 {
+        max-width: 96%;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .win3 .text {
+        left: 5%;
+        width: 310px;
+    }
+
+    .win3 .text .time {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .win3>img {
+        width: 350px;
+        margin-left: 12%;
+    }
+
+    .win4 {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .top {
+        padding: 0 40px;
+    }
+
+    .win4 .cards-container {
+        max-width: 94%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win4 .cards-container .first-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 40px;
+        padding: 30px 40px;
+    }
+
+    .win5 {
+        max-width: 355px;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .win5 .bottom {
+        max-width: 355px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .win5 .bottom .left img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .win5 .bottom div:nth-child(1),
+    .win5 .bottom div:nth-child(2) {
+        max-width: 355px;
+    }
+
+    .win5 .bottom .right .bottom2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .win6 {
+        margin-bottom: 570px;
+    }
+}
